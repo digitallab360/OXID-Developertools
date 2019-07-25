@@ -1,0 +1,95 @@
+/**
+ * Modul: dlb_developertools
+ * Web: https://www.digitallab360.de
+ * Mail: oxid@digitallab360.de
+ * (c) 2019 by digitallab360
+ */
+ 
+ .developer {
+    margin: 30px !important;
+    padding: 4px 10px;
+    border: 1px solid #ddd !important;
+    background:#fff;
+}
+
+.developer hr {
+    color: #ddd;
+    background: #ddd;
+}
+
+.developer h1 {
+    font-weight: lighter;
+    letter-spacing: -1px;
+    font-size: 24px;
+    background-color: #333;
+    padding: 5px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.developer h2 {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.developertool_form input.submit[type="submit"] {
+    background-color: #c02124;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    border: 1px solid #c02124;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.developertool_form input.submit[type="submit"]:hover,
+.developertool_form input.submit[type="submit"]:focus {
+    background-color: transparent;
+    border: 1px solid #c02124;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #c02124;
+}
+
+.developer .cachelog-success {
+    color: green;
+    font-weight: bold;
+}
+
+.developer .cachelog-details {
+    margin:30px 0 0 0;
+}
+
+.developertool_form {
+    position: absolute;
+    bottom: 0;
+}
+
+.dlb-copy-logo img {
+	max-height: 40px;
+	width: auto;
+	}
+
+.dlb-copy {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: right;
+}
+
+.dlb-copy-text {
+    float: left;
+    margin: 15px 20px 0 20px;
+}
+
+.right-column {
+	float: right;
+	}

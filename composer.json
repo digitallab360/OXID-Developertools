@@ -1,0 +1,39 @@
+{
+    "name": "dlb360/dlb_developertools",
+    "description": "The perfect helper for all OXID eShop developers.",
+    "type": "oxideshop-module",
+    "keywords": [
+		"oxid", 
+		"modules", 
+		"eShop"
+	],
+    "homepage": "https://www.digitallab360.de",
+    "version": "2.0.0",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "authors": [
+      {
+        "name": "digitallab360",
+        "email": "oxid@digitallab360.de",
+        "homepage": "https://www.digitallab360.de",
+        "role": "Developer"
+      }
+    ],
+    "support": {
+      "email": "oxid@digitallab360.de"
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "dlb360/dlb_developertools"
+        }
+    },
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalLab\\DeveloperTools\\": "../../../source/modules/dlb360/dlb_developertools"
+        }
+    }
+}

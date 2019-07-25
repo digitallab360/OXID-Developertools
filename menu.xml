@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="dlb_developertools">
+            <SUBMENU id="dlb_logviewer_menuitem" cl="DlbLogViewer"></SUBMENU>
+            <SUBMENU id="dlb_clearcache_menuitem" cl="DlbClearTmp"></SUBMENU>
+            <SUBMENU id="dlb_updateview_menuitem" cl="DlbUpdateView"></SUBMENU>
+            <SUBMENU id="dlb_developertool_menuitem" cl="DlbCredits"></SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
